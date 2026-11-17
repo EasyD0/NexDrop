@@ -2,6 +2,12 @@
 /target/
 **/*.rs.bk
 
+# flutter_rust_bridge 生成的桥接代码（用 scripts/gen_dart 重新生成）
+core/src/frb_generated.rs
+core/src/frb_generated.io.rs
+core/src/frb_generated.web.rs
+app/lib/src/rust/
+
 # Flutter / Dart
 .dart_tool/
 .flutter-plugins
