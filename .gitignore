@@ -1,0 +1,22 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+app/.idea/
+*.iml
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local secrets and overrides
+.env
+.env.*
+*.local

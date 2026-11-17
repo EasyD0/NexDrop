@@ -1,0 +1,12 @@
+[package]
+name = "nexdrop-core"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+description = "Discovery, pairing, and encrypted transfer for NexDrop"
+
+[lib]
+# cdylib for Android/Windows, rlib for tests.
+crate-type = ["cdylib", "staticlib", "rlib"]
+
+[dependencies]
