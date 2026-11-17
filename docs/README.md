@@ -13,6 +13,7 @@
 | [release.md](release.md) | 打包、签名、版本号、发布检查表 | 待写（M5） |
 | [platform/windows.md](platform/windows.md) | 托盘、自启、防火墙、安装包 | 待写（M1） |
 | [platform/android.md](platform/android.md) | 权限、前台服务、分享入口、剪贴板 | 待写（M1 前） |
+| [environment.md](environment.md) | 开发环境版本、安装步骤、已知问题 | 已记录 |
 | [decisions/](decisions/) | 架构决策记录（ADR） | 持续 |
 
 ## 约定
