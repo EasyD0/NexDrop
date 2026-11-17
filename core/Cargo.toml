@@ -10,3 +10,17 @@ description = "Discovery, pairing, and encrypted transfer for NexDrop"
 crate-type = ["cdylib", "staticlib", "rlib"]
 
 [dependencies]
+flutter_rust_bridge = "=2.13.0"
+tokio = { version = "1", features = ["rt-multi-thread", "net", "io-util", "fs", "sync", "time", "macros"] }
+mdns-sd = "0.13"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rand = "0.9"
+anyhow = "1"
+thiserror = "2"
+directories = "6"
+tracing = "0.1"
+sha2 = "0.10"
+tokio-rustls = { version = "0.26", default-features = false, features = ["ring"] }
+rustls = { version = "0.23", default-features = false, features = ["ring", "std"] }
+rcgen = "0.14"

@@ -1,0 +1,4 @@
+rust_input: crate::api
+rust_root: C:/Users/ace/Documents/Code/Rust/NexDrop/core/
+dart_output: lib/src/rust
+full_dep: false

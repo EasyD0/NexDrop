@@ -4,10 +4,15 @@
 //! Android loads it as `libnexdrop_core.so`, Windows as `nexdrop_core.dll`.
 //! Nothing in here may depend on a platform UI toolkit.
 
+mod frb_generated; /* AUTO INJECTED BY flutter_rust_bridge. This line may not be accurate, and you can change it according to your needs. */
+
+pub mod api;
 pub mod crypto;
 pub mod discovery;
 pub mod model;
 pub mod pairing;
+pub mod settings;
+pub mod state;
 pub mod transfer;
 
 /// Core version, surfaced in the UI at startup.
